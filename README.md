@@ -13,7 +13,7 @@ String getWord();
 int getFrequency();
 ```
 - `getWord()`: Returns the word associated with the object that implements WordFrequency.
-- `getFrequency()`: Returns the frequency of the word. word associated with the object that implements WordFrequency.
+- `getFrequency()`: Returns the frequency of the word associated with the object that implements WordFrequency.
 
 ### WordFrequencyAnalyzer
 
