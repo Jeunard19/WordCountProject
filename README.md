@@ -25,9 +25,9 @@ int calculateFrequencyForWord(String text, String word);
 List<WordFrequency> calculateMostFrequentNWords(String text, int n);
 ```
 
-- `calculateHighestFrequency(String text): Calculates and returns the highest frequency of any word in the given text.
-- `calculateFrequencyForWord(String text, String word): Calculates and returns the frequency of a specific word in the given text.
-- `calculateMostFrequentNWords(String text, int n): Calculates and returns a list of n most frequent words as WordFrequency objects in the given text.
+- `calculateHighestFrequency(String text)`: Calculates and returns the highest frequency of any word in the given text.
+- `calculateFrequencyForWord(String text, String word)`: Calculates and returns the frequency of a specific word in the given text.
+- `calculateMostFrequentNWords(String text, int n)`: Calculates and returns a list of n most frequent words as WordFrequency objects in the given text.
 
 ### Usage
 1. Download or clone the repository to your local machine.
