@@ -1,4 +1,4 @@
-package word.Interfaces;
+package word.interfaces;
 
 import java.util.List;
 

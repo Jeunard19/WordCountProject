@@ -1,4 +1,4 @@
-package word.Interfaces;
+package word.interfaces;
 
 public interface WordFrequency {
     String getWord();

@@ -1,6 +1,6 @@
 package word;
 
-import word.Interfaces.WordFrequency;
+import word.interfaces.WordFrequency;
 
 public class WordFrequencyImpl implements WordFrequency {
     private String word;
