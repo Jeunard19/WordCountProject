@@ -43,15 +43,15 @@ WordFrequencyAnalyzer analyzer = new WordFrequencyAnalyzerImpl();
 int highestFrequency = analyzer.calculateHighestFrequency("The sun shines over over OveR a man the lake");
 
 // Calculate the frequency for a specific word
-int frequencyForWord = analyzer.calculateFrequencyForWord("The sun shines over over OveR a man the lake", "over");
+int frequencyForWord = analyzer.calculateFrequencyForWord("The sun shines over over OveR a man the lake", "the");
 
 // Calculate the most frequent N words
 List<WordFrequency> mostFrequentNWords = analyzer.calculateMostFrequentNWords("The sun shines over over OveR a man the lake", 5);
 
 // Print the results
 System.out.println("Highest Frequency: " + highestFrequency);
-System.out.println("Frequency for 'example': " + frequencyForWord);
-System.out.println("Most Frequent N Words: ")
+System.out.println("Frequency for 'the': " + frequencyForWord);
+System.out.println("Most Frequent 5 Words: ");
 mostFrequentNWords.forEach(wordFrequency -> {
             System.out.println(wordFrequency.getWord());
             System.out.println(wordFrequency.getFrequency());
